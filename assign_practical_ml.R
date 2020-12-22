@@ -2,8 +2,8 @@
 library(caret)
 library(randomForest)
 
-testing = read.csv('/Users/taepark/Dropbox/R/machine_learning_R/ml_assign/pml-testing.csv')
-training = read.csv('/Users/taepark/Dropbox/R/machine_learning_R/ml_assign/pml-training.csv')
+testing = read.csv('./pml-testing.csv')
+training = read.csv('./pml-training.csv')
 
 # Clearning dataset
 nzvar = nearZeroVar(training)
