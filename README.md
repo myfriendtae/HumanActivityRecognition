@@ -10,7 +10,7 @@ testing = read.csv('./pml-testing.csv')
 training = read.csv('./pml-training.csv')
 ```
 
-# Clearning dataset
+# Cleaning dataset
 Removed the columns with low variance and more than 80% of data are null value. Additionally, sliced out the irrelvant columns based on the description.
 ```{r, echo=TRUE}
 nzvar = nearZeroVar(training)
