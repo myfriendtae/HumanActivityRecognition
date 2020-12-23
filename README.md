@@ -38,7 +38,7 @@ crossv_train = training[inTrain,]
 crossv_test = training[-inTrain,]
 ```
 
-# Train a model with the random forest
+# Train a model with the random forest method
 Choosen the training method because:
 - applicable for the various data types, both quantitative and qualitative; and
 - having lower capacity in computation, traning speed is important.
