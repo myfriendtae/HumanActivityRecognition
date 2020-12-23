@@ -41,7 +41,7 @@ crossv_test = training[-inTrain,]
 Choosen the training method because:
 - applicable for the various types of type
 - having lower capacity in computation, traning speed is important
-- 
+
 ```{r, echo=TRUE}
 modFitRF = randomForest(classe~., importance=TRUE, data=crossv_train, ntree=10)
 ```
