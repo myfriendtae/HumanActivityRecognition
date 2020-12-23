@@ -4,11 +4,11 @@ Using devices such as Jawbone Up, Nike FuelBand, and Fitbit it is now possible t
 # Summary
 The goal of this project is to predict the manner in which people did the exercise. This is the "classe" variable (factor A, B, C, D, E) in the training set.  HAR website for weight lifting exercise (WLE) says individuals were asked to perform "Unilateral Dumbbell Biceps Curl in five different fashions: 
 
-* Class A: exactly according to the specification
-* Class B: throwing the elbows to the front 
-* Class C: lifting the dumbbell only halfway
-* Class D: lowering the dumbbell only halfway 
-* Class E: and throwing the hips to the front
+* Class A: exactly according to the specification,
+* Class B: throwing the elbows to the front,
+* Class C: lifting the dumbbell only halfway,
+* Class D: lowering the dumbbell only halfway; and 
+* Class E: throwing the hips to the front.
 
 # Library and dataset
 The [training](https://d396qusza40orc.cloudfront.net/predmachlearn/pml-training.csv) and [test](https://d396qusza40orc.cloudfront.net/predmachlearn/pml-testing.csv) dataset are available in each link as well as in the base directory.
@@ -74,5 +74,4 @@ My prediction for the out of the sample dataset is the following.
 ```{r, echo=TRUE}
 prediction = predict(modFitRF, newdata=testing)
 ```
-1  2  3  4  5  6  7  8  9 10 11 12 13 14 15 16 17 18 19 20 
 B  A  B  A  A  E  D  B  A  A  B  C  B  A  E  E  A  B  B  B 
